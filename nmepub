@@ -1,0 +1,5 @@
+#!/bin/sh
+# $1 is the filename
+zip $1 -X0D mimetype
+zip $1 -X9rD OEBPS/
+zip $1 -X9rD META-INF/
